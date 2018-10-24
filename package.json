@@ -1,11 +1,11 @@
 {
 	"name": "chnode",
-	"version": "1.2.3",
+	"version": "1.2.4",
 	"preferGlobal": true,
 	"description": "Change between installed Node version in your shell.",
 	"keywords": ["node", "shell"],
-	"homepage": "https://github.com/steakknife/chnode",
-	"bugs": "https://github.com/steakknife/chnode/issues",
+	"homepage": "https://github.com/giorni/chnode",
+	"bugs": "https://github.com/giorni/chnode/issues",
 
 	"author": {
 		"name": "Andri Möll",
@@ -15,13 +15,17 @@
 
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/steakknife/chnode.git"
+		"url": "https://github.com/giorni/chnode.git"
 	},
 
 	"licenses": [{
 		"type": "LAGPL",
-		"url": "https://github.com/steakknife/chnode/blob/master/LICENSE"
+		"url": "https://github.com/giorni/chnode/blob/master/LICENSE"
 	}],
 
-	"bin": ["chnode", "chnode-auto", "chnode-exec"]
+	"bin": {
+		"chnode": "chnode",
+		"chnode-auto": "chnode-auto",
+		"chnode-exec": "chnode-exec"
+	}
 }

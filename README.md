@@ -58,7 +58,7 @@ Installing
 ----------
 Install Chnode globally with:
 ```sh
-npm install --global steakknife/chnode
+npm install --global giorni/chnode
 ```
 
 Then source it in your shell:
@@ -154,11 +154,13 @@ For full legalese, see the [LICENSE](LICENSE) file.
 
 About
 -----
-**[Andri Möll](http://themoll.com)** typed this and the code.  
-[Monday Calendar](https://mondayapp.com) supported the engineering work.
-
 If you find Chnode needs improving, please don't hesitate to type to me now
-at [andri@dot.ee][email] or [create an issue online][issues].
+at [ricardo@giorni.co][email] or [create an issue online][issues].
 
-[email]: mailto:andri@dot.ee
-[issues]: https://github.com/steakknife/chnode/issues
+[email]: mailto:ricardo@giorni.co
+[issues]: https://github.com/giorni/chnode/issues
+
+Author
+------
+**[Andri Möll](http://themoll.com)** typed this and the code.
+[Monday Calendar](https://mondayapp.com) supported the engineering work.
