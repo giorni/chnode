@@ -49,8 +49,6 @@ chnode() {
 
 				echo
 				echo "For help or feedback please contact Ricardo Giorni (@giorni)"
-				echo "Previously maintained by Barry Allard <barry.allard@gmail.com>"
-				echo "Created by Andri Möll <andri@dot.ee>)"
 				echo "see https://github.com/giorni/chnode."
 				return
 				;;
@@ -61,9 +59,6 @@ chnode() {
 
 			-V | --version)
 				echo "Chnode v1.2.4"
-				echo "Copyright (C) 2018– Ricardo Giorni <ricardo@giorni.co>"
-				echo "Copyright (C) 2016– Barry Allard <barry.allard@gmail.com>"
-				echo "Copyright (C) 2013– Andri Möll <andri@dot.ee>"
 				return
 				;;
 

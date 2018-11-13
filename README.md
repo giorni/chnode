@@ -160,7 +160,7 @@ at [ricardo@giorni.co][email] or [create an issue online][issues].
 [email]: mailto:ricardo@giorni.co
 [issues]: https://github.com/giorni/chnode/issues
 
-Author
-------
+Authors
+-------
 **[Andri Möll](http://themoll.com)** typed this and the code.
-[Monday Calendar](https://mondayapp.com) supported the engineering work.
+**[Barry Allard](https://github.com/steakknife)** previously maintained.
