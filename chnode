@@ -119,8 +119,13 @@ chnode() {
 
 	# Clean up PATH from old Node versions and ugly stray colons.
 	local dir=
+	local npm_bin=
+	if type npm > /dev/null; then
+		npm_bin="$(npm bin -g 2> /dev/null)"
+	fi
 	PATH=":$PATH:"
 	for dir in "${NODES[@]}"; do PATH=${PATH/:${dir}\/bin:/:}; done
+	PATH=${PATH/:${npm_bin}:/:}
 	PATH=${PATH#:}; PATH=${PATH%:}
 
 	if [ "$1" = system ]; then
@@ -169,6 +174,11 @@ chnode() {
 	fi
 
 	PATH=$root/bin:$PATH
+
+	if type npm > /dev/null; then
+		npm_bin="$(npm bin -g 2> /dev/null)"
+		PATH=$npm_bin:$PATH
+	fi
 
 	# No news is good news.
 	if [ $verbose -gt 0 ]; then
